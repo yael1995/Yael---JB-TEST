@@ -8,3 +8,4 @@
 8. Create a static pod named static-busybox on the master node
 9. created pod with a namespace temp-bus based on redis:alpine image
 10. created persistent volume named pv-analytics
+11. created pod with a volume of type emptyDir
