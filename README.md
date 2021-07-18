@@ -1,2 +1,2 @@
 # Yael---JB-TEST
-Deploy a pod based on nginx:alpine image
+1. Deploy a pod based on nginx:alpine image
