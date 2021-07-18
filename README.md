@@ -6,3 +6,4 @@
 5+6.created messaging service that listens on port 6379
 7.created a deployment with 2 replicas based on kodekloud/webapp-color image
 8.Create a static pod named static-busybox on the master node
+9.created pod with a namespace temp-bus based on redis:alpine image
