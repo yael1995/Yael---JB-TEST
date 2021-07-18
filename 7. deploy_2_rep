@@ -1,0 +1,18 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hr-web-app
+spec:
+  selector:
+    matchLabels:
+      app: kloud
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: kloud
+    spec:
+      containers:
+      - name: hr-web-app
+        image: kodekloud/webapp-color
