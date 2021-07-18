@@ -3,4 +3,5 @@
 2. Deploy a messaging pod based on redis:alpine image 
 3.Create namespace called apx-x998-yael
 4. json file containing nodes configurations up to this step
-5.created messaging service that listens on port 6379
+5+6.created messaging service that listens on port 6379
+7.created a deployment with 2 replicas based on kodekloud/webapp-color image
