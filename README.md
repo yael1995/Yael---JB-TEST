@@ -11,3 +11,4 @@
 11. created pod with a volume of type emptyDir
 12. created pod an dattached it on a persistant volume called pv-1
 13. Create a new deployment called nginx-deploy, with image nginx:1.16 and 1 replica
+14.Create an nginx pod called nginx-resolver using image nginx, expose it internally with a service called nginx-resolver-service
